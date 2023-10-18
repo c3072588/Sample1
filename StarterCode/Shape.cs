@@ -17,7 +17,7 @@ namespace StarterCode.Shapes
         internal Color ShapeColor { get; set; } = Color.White;
         internal int CenterX { get; set; }
         internal int CenterY { get; set; }
-        protected internal float _height;
+        protected float _height;
         internal float Height {
             get { 
                 return _height; 
@@ -26,7 +26,7 @@ namespace StarterCode.Shapes
                 _height = ClampToMinimum(value);
             } 
         }
-        protected internal float _width;
+        protected float _width;
         internal float Width
         {
             get
