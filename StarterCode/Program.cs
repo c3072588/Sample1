@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-            // Uncomment this to start
-            //Shapes shape = new Shapes();
-            //Console.WriteLine(shape);
-            //shape.Draw();
+     
+            Shapes.Shape shape = new Shapes.Shape();
+            Console.WriteLine(shape);
+            shape.Draw();
         }
     }
 }
